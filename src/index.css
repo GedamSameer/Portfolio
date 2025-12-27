@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring-blur: 60px;
+}
+
+.blob { filter: blur(var(--ring-blur)); opacity: .35; }
+.active-link { color: rgb(99 102 241); }
